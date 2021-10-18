@@ -6,10 +6,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "parcel build *.html",
-    "start": "parcel serve *.html --open"
+    "build": "parcel build ActividadAudio/*.html",
+    "start": "parcel serve ActividadAudio/*.html --open"
   },
   "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
     "autoprefixer": "^10.3.7",
     "parcel": "^2.0.0-rc.0",
     "posthtml-extend": "^0.6.0",
